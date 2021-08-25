@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+body {
+	font-family: "roboto";
+}
 img {
-    width: 100%;
+    width: 90%;
+	height: 350px;
 }
 h1 {
     text-align: center;
@@ -9,7 +14,7 @@ header {
 }
 button {
     font-size: 2em;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .titre2 {
 	margin-left: 170px;
@@ -17,4 +22,49 @@ button {
 }
 #menu_nav {
 	margin-left: 165px;
+}
+#titre1 {
+    margin-top: 100px;
+}
+.marg {
+    margin-left: 150px;
+	margin-top: 60px;
+}
+.marg1 {
+	margin-top: 150px;
+}
+#logo {
+	width: 400px;
+	height: 70px;
+}
+#lieu {
+	margin-top: 50px;
+}
+.padding {
+	padding: 70px;
+	padding-left: 110px;
+	font-weight: bold;
+}
+footer {
+	background-color: #696969;
+	margin-left: 120px;
+	margin-top: 230px;
+	width: 80%;
+}
+.padding1 {
+	padding-top: 20px;
+	padding-left: 30px;
+}
+#phrase {
+	opacity: 0.6;
+}
+.taille {
+	font-size: 2em;
+	padding-left: 100px;
+	color: white;
+}
+#titre3 {
+	font-size: 2.5em;
+	padding-left: 50px;
+	color: white;
 }
