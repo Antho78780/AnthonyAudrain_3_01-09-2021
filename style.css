@@ -30,18 +30,23 @@ button {
 #titre1 {
     margin-top: 100px;
 }
-.marg {
+.restaurant {
     margin-left: 150px;
 	margin-top: 60px;
+	transform: scale(1);
+	transition: all 1s;
 }
-.marg1 {
+.marg:active {
+	transform: scale(1.50);
+}
+.margin-top {
 	margin-top: 150px;
 }
 #logo {
 	width: 400px;
 	height: 70px;
 }
-.padding {
+.menu {
 	padding: 70px;
 	padding-left: 110px;
 	font-weight: bold;
@@ -52,14 +57,19 @@ footer {
 	margin-top: 230px;
 	width: 80%;
 }
-.padding1 {
+.legende1 {
 	padding-top: 20px;
 	padding-left: 30px;
+	font-weight: bold;
+}
+.legende2 {
+	margin-left: 30px;
+	margin-top: 10px;
 }
 #phrase {
 	opacity: 0.6;
 }
-.taille {
+.chartre {
 	font-size: 2em;
 	padding-left: 100px;
 	color: white;
@@ -77,5 +87,8 @@ footer {
 	padding: 30px;
 }
 ::placeholder {
-	color: black
+	color: black;
+}
+.search {
+	font-size: 3em;
 }
