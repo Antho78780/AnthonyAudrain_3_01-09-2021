@@ -92,3 +92,6 @@ footer {
 .search {
 	font-size: 3em;
 }
+#menu1,#menu2,#menu3,#menu4 {
+	margin-left: 150px;
+}
