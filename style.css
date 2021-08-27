@@ -52,10 +52,11 @@ button {
 	font-weight: bold;
 }
 footer {
-	background-color: #696969;
 	margin-left: 120px;
 	margin-top: 230px;
 	width: 80%;
+	background-color: #303030;
+    color: #FFFAFA;
 }
 .legende1 {
 	padding-top: 20px;

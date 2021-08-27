@@ -1,0 +1,33 @@
+img {
+    width: 100%;
+    margin-top: 10px;
+}
+#logo {
+    width: 40%;
+    margin-left: 270px;
+}
+h1 {
+    font-size:3em;
+   
+}
+menu {
+    background-color: #f2f2f2;
+}
+div {
+    width: 95%;
+    background-color: white;
+	margin-top: 30px;
+}
+.chartre {
+    margin-left: 100px;
+}
+#titre3 {
+    margin-left: 50px;
+}
+footer {
+    margin-top: 400px;
+    background-color: #303030;
+    color: #FFFAFA;
+    padding-top: 40px;
+    width: 90%;
+}
