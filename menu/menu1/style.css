@@ -20,6 +20,12 @@ div {
 }
 .chartre {
     margin-left: 100px;
+    margin: 10px;
+    padding-left: 90px;
+}
+.chartre2 {
+	margin-left: -40px;
+    
 }
 #titre3 {
     margin-left: 50px;
@@ -30,4 +36,5 @@ footer {
     color: #FFFAFA;
     padding-top: 40px;
     width: 90%;
+  
 }

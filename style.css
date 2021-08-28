@@ -55,6 +55,7 @@ footer {
 	margin-left: 120px;
 	margin-top: 230px;
 	width: 80%;
+	height: 370px;
 	background-color: #303030;
     color: #FFFAFA;
 }
@@ -72,10 +73,15 @@ footer {
 }
 .chartre {
 	font-size: 2em;
-	padding-left: 100px;
+	padding-left: 90px;
 	color: white;
+	margin: 10px;
+}
+.chartre2 {
+	margin-left: -40px;
 }
 #titre3 {
+	padding-top: 40px;
 	font-size: 2.5em;
 	padding-left: 50px;
 	color: white;
