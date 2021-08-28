@@ -4,6 +4,12 @@ body {
 }
 img {
     width: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
+#header1 {
+	background-color: #f2f2f2;
+	padding-top: 10px;
+	padding-bottom: 40px;
 }
 h1 {
     text-align: center;
@@ -12,93 +18,70 @@ header {
     text-align: center;
 }
 button {
-    font-size: 2em;
-    margin-top: 50px;
+	margin-top: 10px;
 	background-color: #FF79DA;
-	padding: 20px;
+	padding: 10px;
 	border-radius: 50px;
 	color: white;
 	border: 1px solid;
 }
-.titre2 {
-	margin-left: 170px;
-	margin-top: 180px;
-}
-#menu_nav {
-	margin-left: 165px;
-}
-#titre1 {
-    margin-top: 100px;
-}
-.restaurant {
-    margin-left: 150px;
-	margin-top: 60px;
-	transform: scale(1);
-	transition: all 1s;
-}
-.marg:active {
-	transform: scale(1.50);
-}
-.margin-top {
-	margin-top: 150px;
-}
 #logo {
-	width: 400px;
-	height: 70px;
+	width: 40%;
 }
 .menu {
-	padding: 70px;
-	padding-left: 110px;
 	font-weight: bold;
 }
 footer {
-	margin-left: 120px;
-	margin-top: 230px;
-	width: 80%;
-	height: 370px;
+	width: 100%;
 	background-color: #303030;
     color: #FFFAFA;
+	padding-bottom: 20px;
 }
 .legende1 {
-	padding-top: 20px;
-	padding-left: 30px;
 	font-weight: bold;
+	padding-left: 10px;
+	margin-top: 10px;
 }
 .legende2 {
-	margin-left: 30px;
-	margin-top: 10px;
+	margin-top: -15px;
+	padding-left: 10px;
 }
 #phrase {
 	opacity: 0.6;
 }
 .chartre {
-	font-size: 2em;
-	padding-left: 90px;
+	padding-left: 30px;
 	color: white;
 	margin: 10px;
 }
+
 .chartre2 {
-	margin-left: -40px;
+	margin-left: -15px;
 }
-#titre3 {
-	padding-top: 40px;
-	font-size: 2.5em;
-	padding-left: 50px;
+#titre4 {
+	padding-top: 20px;
+	padding-left: 20px;
 	color: white;
 }
+#titre2 {
+	margin-left: 50px;
+}
+#titre3 {
+	margin-left: 50px;
+}
 :placeholder-shown {
-	font-size: 2em;
-	width: 90%;
+	width: 100%;
 	text-align: center;
-	margin-top: 20px;
-	padding: 30px;
+	padding: 10px;
+	font-weight: bold;
+	background-color: #f2f2f2;
 }
-::placeholder {
-	color: black;
+section {
+	background-color: #f2f2f2;
+	padding-top: 20px;
+	padding-bottom: 10px;
 }
-.search {
-	font-size: 3em;
-}
-#menu1,#menu2,#menu3,#menu4 {
-	margin-left: 150px;
+.menu {
+	text-align: center;
+	margin: 50px;
 }
