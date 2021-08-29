@@ -14,6 +14,8 @@ section {
 div {
 	background-color: white;
 	border-radius: 10px;
+	margin-bottom: -15px;
+	animation: fadein 2s;
 }
 footer {
 	background-color: #808080;
@@ -57,4 +59,11 @@ footer {
 #titre3 {
 	margin-left: 20px;
 	padding-top: 15px;
+}
+.argent {
+	width: 30px;
+	margin-left: 300px;
+	position: relative;
+	bottom: 28px;
+	font-weight: bold;
 }
