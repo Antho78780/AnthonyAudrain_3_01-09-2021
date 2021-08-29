@@ -8,11 +8,12 @@ img {
 section {
 	background-color: #f2f2f2;
 	margin-top: -100px;
-	padding-left: 20px;
-
+	padding-left: 10px;
+	padding-right: 10px;
 }
 div {
 	background-color: white;
+	border-radius: 10px;
 }
 footer {
 	background-color: #808080;
@@ -23,15 +24,21 @@ h1 {
 	background-color: #f2f2f2;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	border-radius: 20px 20px 0px 0px;
+	padding-left: 15px;
+}
+h4 {
+	padding-top: 10px;
 	padding-left: 10px;
-	border-radius: 20px;
-	padding-left: 20px;
 }
 h3 {
 	opacity: 0.7;
+	margin-left: 10px;
 }
 p {
 	margin-top: -15px;
+	padding-bottom: 10px;
+	padding-left: 10px;
 
 }
 footer {
