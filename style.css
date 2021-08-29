@@ -33,9 +33,8 @@ button {
 }
 footer {
 	width: 100%;
-	background-color: #303030;
-    color: #FFFAFA;
 	padding-bottom: 20px;
+	background-color: gray;
 }
 .legende1 {
 	font-weight: bold;
