@@ -1,3 +1,4 @@
+
 img {
 	width: 100%;
 	margin-top: 10px;
@@ -19,9 +20,6 @@ div {
 	border-radius: 10px;
 	margin-bottom: 15px;
 }
-footer {
-	background-color: #808080;
-}
 h1 {
 	position: relative;
 	top: -77px;
@@ -40,7 +38,8 @@ h3 {
 	margin-left: 10px;
 }
 p {
-	padding-lefT: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
 }
 footer {
 	width: 100%;
@@ -56,14 +55,11 @@ footer {
 	margin-left: -15px;
 }
 #titre3 {
-	margin-left: 20px;
+	margin-left: 10px;
 	padding-top: 15px;
 }
-.argent {
-	width: 30px;
-	height: 25px;
-	margin-left: 300px; 
-}
 .phrase {
+	display: flex;
+	justify-content: space-between;
 	margin: auto;
 }

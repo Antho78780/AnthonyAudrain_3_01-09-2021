@@ -1,9 +1,13 @@
+
 img {
 	width: 100%;
+	margin-top: 10px;
 }
 #logo {
+	width: 50%;
 	width: 40%;
-	margin-left: 100px;
+	display: block;
+	margin: auto;
 }
 section {
 	background-color: #f2f2f2;
@@ -14,11 +18,7 @@ section {
 div {
 	background-color: white;
 	border-radius: 10px;
-	margin-bottom: -15px;
-	animation: fadein 2s;
-}
-footer {
-	background-color: #808080;
+	margin-bottom: 15px;
 }
 h1 {
 	position: relative;
@@ -38,10 +38,8 @@ h3 {
 	margin-left: 10px;
 }
 p {
-	margin-top: -15px;
-	padding-bottom: 10px;
 	padding-left: 10px;
-
+	padding-bottom: 10px;
 }
 footer {
 	width: 100%;
@@ -57,13 +55,11 @@ footer {
 	margin-left: -15px;
 }
 #titre3 {
-	margin-left: 20px;
+	margin-left: 10px;
 	padding-top: 15px;
 }
-.argent {
-	width: 30px;
-	margin-left: 300px;
-	position: relative;
-	bottom: 28px;
-	font-weight: bold;
+.phrase {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
 }
