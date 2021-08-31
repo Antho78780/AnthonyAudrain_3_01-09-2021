@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 body {
 	font-family: "roboto";
+	width: auto;
 }
 img {
-    width: 100%;
 	border-radius: 10px 10px 0px 0px;
+	width: 95%;
 }
-
+.restaurant {
+	width: 100%;
+	margin: auto;
+}
 #header1 {
 	background-color: #f2f2f2;
 	padding-top: 10px;
@@ -49,6 +53,7 @@ footer {
 .chartre {
 	color: white;
 	margin: 5px;
+	margin-left: 10px;
 }
 
 .fourchette {
@@ -62,7 +67,7 @@ footer {
 	margin-left: 7px;
 }
 .chartre2 {
-	margin-left: 10px;
+	margin-left: 15px;
 }
 #titre4 {
 	padding-top: 20px;
@@ -71,9 +76,6 @@ footer {
 }
 #titre2 {
 	margin-left: 5px;
-}
-#titre3 {
-	margin-left: 10px;
 }
 :placeholder-shown {
 	width: 100%;
@@ -95,24 +97,40 @@ section {
 	border-radius: 15px;
 	font-weight: bold;
 	white-space:nowrap;
+	margin-left: 10px;
 }
 span {
-	width: 10px;
-	height: 17px;
-	margin-top: 15px;
-	margin-right: 60px;
+	color: white;
+	margin-top: 14px;
 	background-color:#9356DC;
-	padding:2px;
+	height: 19px;
+	padding-top: 3px;
 	padding-right: 7px;
-	padding-left: 6px;
-	border-radius: 10px;
+	padding-left: 7px;
+	border-radius: 100%;
+	font-size: 0.8em;
+	display: inline-block;
+	margin-left: 5px;
 }
 .phrase2 {
 	margin-right: 60px;
 }
 .marg {
-	margin-right: 75px;
+	margin-right: 70px;
 }
 .marg1 {
-	margin-right: 67px;
+	margin-right: 85px;
+}
+.marg2 {
+	margin-right: 75px;
+}
+.mobile {
+	margin: 20px;
+}
+.list {
+	margin: 20px;
+}
+.store {
+	margin: 20px;
+	
 }
