@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@font-face {
+    font-family: 'shrikhandregular';
+    src: url("fonts/shrikhand-regular-webfont.woff2") format('woff2'),
+         url("fonts/shrikhand-regular-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
 	font-family: "roboto";
 	width: auto;
@@ -12,11 +19,6 @@ img {
 	margin: auto;
 	margin-top: 30px;
 }
-#section {
-	background-color: #f2f2f2;
-	padding-top: 10px;
-	padding-bottom: 40px;
-}
 h1 {
     text-align: center;
 }
@@ -25,20 +27,24 @@ header {
 }
 button {
 	margin-top: 10px;
-	background-color: #FF79DA;
+	background-color: rosybrown;
 	padding: 10px;
 	border-radius: 50px;
 	color: white;
 	border: 1px solid;
 }
 .items {
+	position: absolute;
+	right: 26px;
+	margin-top: 10px;
 	background-color: #99E2D0;
+	color: #175732;
 	width: 60px;
 	padding-right: 10px;
 	padding-left: 10px;
 	padding-bottom: 5px;
 	padding-top: 2px;
-	display: none;
+	border-radius: 3px;
 	
 }
 #logo {
@@ -92,7 +98,8 @@ footer {
 #titre4 {
 	padding-top: 20px;
 	padding-left: 20px;
-	color: white;
+	font-family: shrikhandregular;
+	color: #F5F5F5;
 }
 #titre2 {
 	margin-left: 5px;
@@ -103,6 +110,7 @@ footer {
 	padding: 10px;
 	font-weight: bold;
 	background-color: #f2f2f2;
+	border: 1px solid grey;
 }
 section {
 	background-color: #f2f2f2;
@@ -136,7 +144,7 @@ span {
 	margin-right: 60px;
 }
 .marg {
-	margin-right: 70px;
+	margin-right: 77px;
 }
 .marg1 {
 	margin-right: 85px;
@@ -146,11 +154,13 @@ span {
 }
 .mobile {
 	margin: 20px;
+	opacity: 0.5;
 }
 .list {
 	margin: 20px;
+	opacity: 0.5;
 }
 .store {
 	margin: 20px;
-	
+	opacity: 0.5;
 }
