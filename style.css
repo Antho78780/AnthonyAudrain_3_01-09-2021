@@ -6,6 +6,46 @@
     font-weight: normal;
     font-style: normal;
 }
+@media screen and (min-width:1024px) {
+	
+	.edit {
+		width: 50%;
+		border-radius: 5%;
+	}
+	.items {
+		display: none;
+	}
+	#main {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		text-align: center;
+	}
+	#titre3 {
+		display: none;
+	}
+	.legende1 {
+		flex-direction: column;
+	}
+	.coeur {
+		display: none;
+	}
+	footer {
+		padding-top: 20px;
+		padding-right: 10px;
+		display: flex;
+		justify-content: space-between;
+	}
+	#titre4 {
+		display: none;
+	}
+	#titre2 {
+		display: none;
+	}
+	nav {
+		display: flex;
+		justify-content: space-between;
+	}
+}
 body {
 	font-family: "roboto";
 	width: auto;
@@ -47,7 +87,7 @@ button {
 	border-radius: 3px;
 	
 }
-#logo {
+.logo {
 	width: 40%;
 }
 footer {
