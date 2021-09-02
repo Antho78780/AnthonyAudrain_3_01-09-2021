@@ -16,13 +16,9 @@
 	#main {
 		display: grid;
 		grid-template-columns: 50% 50%;
-		text-align: center;
 	}
 	#titre3 {
 		display: none;
-	}
-	.legende1 {
-		flex-direction: column;
 	}
 	.coeur {
 		display: none;
