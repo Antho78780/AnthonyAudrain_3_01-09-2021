@@ -42,14 +42,15 @@
 }
 body {
 	font-family: "roboto";
-	width: auto;
+	width: 100%;
+	margin: auto;
 }
 .restaurant img {
 	border-radius: 10px 10px 0px 0px;
 	width: 100%;
 }
 .restaurant {
-	width: 95%;
+	width: 90%;
 	margin: auto;
 	margin-top: 30px;
 }
@@ -81,7 +82,7 @@ header {
 	border-radius: 3px;
 	
 }
-.logo {
+#logo {
 	width: 40%;
 }
 footer {
@@ -98,6 +99,9 @@ footer {
 .coeur {
 	margin-right: 10px;
 	font-size: 1.2em;
+}
+#titre3 {
+	margin-left: 10px;
 }
 .coeur:hover {
 	color: #9356DC;
@@ -145,6 +149,8 @@ footer {
 	font-weight: bold;
 	background-color: #f2f2f2;
 	border: none;
+	margin-top: 10px;
+	border-top: 2px solid #D3D3D3;
 }
 #main {
 	background-color: #f2f2f2;
