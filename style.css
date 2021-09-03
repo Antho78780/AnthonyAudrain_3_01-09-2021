@@ -40,6 +40,14 @@
 		justify-content: space-between;
 	}
 }
+#localisation_flex {
+	display: flex;
+}
+.localisation {
+	position:relative;
+	left: 26%;
+	top: 9px
+}
 body {
 	font-family: "roboto";
 	width: 100%;
@@ -83,7 +91,7 @@ header {
 	
 }
 #logo {
-	width: 40%;
+	width: 45%;
 }
 footer {
 	width: 100%;
