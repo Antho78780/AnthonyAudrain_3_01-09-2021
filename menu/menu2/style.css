@@ -33,9 +33,13 @@ section {
 .phrase {
 	margin: auto;
 }
-span {
+.check_flex {
+	text-align: center;
 	display: flex;
-	margin-top: 30px;
+}
+span {
+	margin: auto;
+	margin-right: 10px;
 }
 .block {
 	border-radius: 10px 15px 15px 10px;
@@ -45,9 +49,6 @@ span {
 	background-color: white;
 	display: flex;
 	justify-content: space-between;
-}
-.block2 {
-	padding: 0.7em;
 }
 .block:hover  {
 	padding-right: 50px;
@@ -91,9 +92,6 @@ span {
 }
 .delay9 {
 	animation-duration: 1.9s;
-}
-.delay10 {
-	animation-duration: 2.1s;
 }
 @keyframes anim {
 	0% {
