@@ -6,6 +6,33 @@
     font-weight: normal;
     font-style: normal;
 }
+@media screen and (min-width:1024px) {
+	body {
+		max-width: 1200px;
+	}
+	img {
+		max-width: 100%;
+		height: 700px;
+		display: block;
+		margin: auto;
+	}
+	section {
+		width: 100%;
+	}
+	#logo {
+		min-width: 50%;
+		height: auto;
+	}
+	footer {
+		padding-top: 20px;
+		padding-right: 10px;
+		display: flex;
+		justify-content: space-between;
+	}
+	h4 {
+		display: none;
+	}
+}
 body {
 	font-family: roboto;
 	width: 100%;
@@ -51,6 +78,18 @@ span {
 	background-color: white;
 	display: flex;
 	justify-content: space-between;
+}
+.coeur {
+	margin-right: 10px;
+	margin-right: 30px;
+}
+.coeur:hover {
+	background-image: linear-gradient( #9356DC,#FF79DA);
+	color: transparent;
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	font-weight: bold;
+	transition: ease-out 0.5s;
 }
 .block2 {
 	padding-top: 10px;
@@ -120,8 +159,8 @@ h2 {
 	padding-top: 20px;
 	border-radius: 30px 30px 0px 0px;
 	padding-left: 15px;
-	justify-content: space-between;
 	display: flex;
+	justify-content: space-between;
 	font-family: shrikhandregular;
 }
 h4 {
@@ -164,12 +203,6 @@ footer h4 {
 }
 .chartre2 {
 	padding-left: 18px;
-}
-.coeur {
-	font-size: 0.8em;
-	margin-top: 5px;
-	margin-right: 25px;
-	opacity: 0.7;
 }
 .chartre {
 	margin: -2px;
