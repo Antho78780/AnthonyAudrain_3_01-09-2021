@@ -64,7 +64,7 @@ section {
 	text-align: center;
 	display: flex;
 }
-span {
+.argent {
 	margin: auto;
 	margin-right: 10px;
 	margin-top: 30px;
@@ -97,22 +97,32 @@ span {
 	width: 250px;
 	white-space: nowrap;
 	overflow: hidden;
+	text-overflow: ellipsis;
 }
 .block:hover  {
 	padding-right: 50px;
 	transition: all .5s;
 }
+.block:hover .check {
+	transform: rotate(0);
+	animation: slide .7s;
+}
 .check {
-	background-color: #99E2D0;
-	border-radius: 0px 15px 15px 0px;
-	color: white;
-	padding-top: 25px;
-	padding-left: 10px;
-	padding-right: 10px;
-	width: 30px;
-	height: 35px;
-	text-align: center;
+	color: #99E2D0;
+	background-color: white;
+	border-radius: 100%;
 	margin-right: -50px;
+	font-size: 1.2em;
+	margin: auto;
+	margin-top: 14px;
+	padding: 2px;
+}
+.check2 {
+	background-color: #99E2D0;
+	margin-right: -50px;
+	width: 50px;
+	padding-bottom: 15px;
+	padding-top: 5px;
 }
 .delay1 {
 	animation-duration: 0.3s;
@@ -141,14 +151,25 @@ span {
 .delay9 {
 	animation-duration: 1.9s;
 }
+.delay10 {
+	animation-duration: 2.1s;
+}
 @keyframes anim {
 	0% {
 		transform:scale(0);
 	  opacity: 0;
-	}
+	 }
 	100% {
 		transform: scale(1);
 	  opacity: 1;
+	}
+}
+@keyframes slide{
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
 	}
 }
 h2 {
