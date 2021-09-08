@@ -58,7 +58,7 @@
 	}
 }
 #grosblock {
-	animation: anim 4s;
+	animation: anim 10s;
 }
 @keyframes anim {
 	0% {
@@ -69,19 +69,19 @@
 	}
 }
 .loading {
-	border: 2px solid grey;
-	background: linear-gradient(#9356DC,#FF79DA);
-	width: 200px;
-	height: 200px;
-	margin: auto;
+	border: 2px solid white;
+	background: linear-gradient(#9356DC,#FF79DA,#99E2D0);
+	width: 100px;
+	height: 100px;
 	border-radius: 100%;
+	visibility: hidden;
+	animation: spin 3s;
+	margin: auto;
 	position: absolute;
 	top: 0;
 	left: 0;
 	bottom: 0;
-	right: 0%;
-	visibility: hidden;
-	animation: spin 2s;
+	right: 0;
 }
 @keyframes spin {
 	0% {
@@ -90,7 +90,6 @@
 	}
 	100% {
 		transform:rotate(360deg);
-		visibility: hidden;
 	}
 }
 a {
