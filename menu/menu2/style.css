@@ -33,6 +33,9 @@
 		display: none;
 	}
 }
+a {
+	color: black;
+}
 footer a {
 	color: white;
 	text-decoration: none;

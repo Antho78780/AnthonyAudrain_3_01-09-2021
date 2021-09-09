@@ -58,7 +58,7 @@
 	}
 }
 #grosblock {
-	animation: anim 10s;
+	animation: anim 5s;
 }
 @keyframes anim {
 	0% {
