@@ -54,15 +54,15 @@ img {
 	margin-top: 10px;
 }
 #logo {
-	width: 40%;
+	width: 35%;
 	margin: auto;
-	margin-right: 90px;
 }
 #arrow {
 	display: flex;
+	margin: auto;
 }
 .arrow {
-	margin-left: 25px;
+	margin-left: 20px;
 	margin-top: 5px;
 }
 section {
