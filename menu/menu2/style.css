@@ -52,8 +52,15 @@ img {
 }
 #logo {
 	width: 40%;
-	display: block;
 	margin: auto;
+	margin-right: 90px;
+}
+#arrow {
+	display: flex;
+}
+.arrow {
+	margin-left: 25px;
+	margin-top: 5px;
 }
 section {
 	background-color: #f2f2f2;
@@ -154,9 +161,6 @@ section {
 }
 .delay9 {
 	animation-duration: 1.9s;
-}
-.delay10 {
-	animation-duration: 2.1s;
 }
 @keyframes anim {
 	0% {
