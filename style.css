@@ -96,13 +96,10 @@
 a {
 	text-decoration: none;
 }
-#localisation_flex {
-	display: flex;
-}
 .localisation {
-	position:relative;
-	left: 26%;
-	top: 9px
+	position: absolute;
+	top: 35px;
+	left: 25%;
 }
 body {
 	font-family: "roboto";
@@ -258,7 +255,6 @@ span {
 	display: inline-block;
 	margin-left: 5px;
 }
-.block2 
 .marg {
 	margin-right: 77px;
 }
