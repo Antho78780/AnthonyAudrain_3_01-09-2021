@@ -16,11 +16,8 @@
 		display: block;
 		margin: auto;
 	}
-	section {
-		width: 100%;
-	}
 	#logo {
-		min-width: 50%;
+		min-width: 30%;
 		height: auto;
 	}
 	footer {
@@ -29,9 +26,36 @@
 		display: flex;
 		justify-content: space-between;
 	}
-	h4 {
+	.block2 {
+		margin: auto;
+	}
+	h3 {
+		max-width: 7%;
+		display: block;
+		margin: auto;
+		padding-left: 510px;
+		padding-right: 580px;
+		text-align: center;;
+	}
+	footer h4 {
 		display: none;
 	}
+	h2 {
+		width: 25%;
+		margin: auto;
+		margin-top: 70px;
+	}
+	.phrase {
+		text-align: center;
+	}
+	#arrow {
+		display: flex;
+		min-width: 100%;
+	}
+	.arrow {
+		padding-top: 30px;
+		font-size: 1.5em;
+	}	
 }
 a {
 	color:black;
@@ -44,7 +68,7 @@ body {
 	font-family: roboto;
 	width: 100%;
 	margin: auto;
-	;
+	
 }
 header {
 	display: flex;
@@ -54,12 +78,16 @@ img {
 	margin-top: 10px;
 }
 #logo {
-	width: 35%;
+	width: 40%;
 	margin: auto;
 }
 #arrow {
 	display: flex;
 	margin: auto;
+	width: 300px;
+}
+.arrow {
+	margin-top: 5px;
 }
 section {
 	background-color: #f2f2f2;
@@ -69,6 +97,9 @@ section {
 }
 .phrase {
 	margin: auto;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 .check_flex {
 	text-align: center;
@@ -209,13 +240,14 @@ footer {
 	background-color: #303030;
     color: #FFFAFA;
 	padding-bottom: 20px;
-	margin-top: 70px;
+	margin-top: 50px;
 }
 footer h4 {
 	margin-left: 10px;
 	padding-top: 20px;
 	font-size: 1em;
 	font-family: shrikhandregular;
+	color: #FFFAFA
 }
 .fourchette {
 	padding-right: 10px;
@@ -236,6 +268,7 @@ footer h4 {
 div button {
 	display: block;
 	margin: auto;
+	margin-top: 50px;
 	padding-right: 30px;
 	padding-left: 30px;
 	padding-top: 10px;
@@ -244,4 +277,7 @@ div button {
 	border: none;
 	background:linear-gradient(#FF79DA,#9356DC);
 	color: white;
+}
+div button:hover {
+	opacity: 0.8;
 }
