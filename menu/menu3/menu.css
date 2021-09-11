@@ -6,57 +6,6 @@
     font-weight: normal;
     font-style: normal;
 }
-@media screen and (min-width:1024px) {
-	body {
-		max-width: 1200px;
-	}
-	img {
-		max-width: 100%;
-		height: 700px;
-		display: block;
-		margin: auto;
-	}
-	#logo {
-		min-width: 30%;
-		height: auto;
-	}
-	footer {
-		padding-top: 20px;
-		padding-right: 10px;
-		display: flex;
-		justify-content: space-between;
-	}
-	.block2 {
-		margin: auto;
-	}
-	h3 {
-		max-width: 7%;
-		display: block;
-		margin: auto;
-		padding-left: 510px;
-		padding-right: 580px;
-		text-align: center;;
-	}
-	footer h4 {
-		display: none;
-	}
-	h2 {
-		width: 25%;
-		margin: auto;
-		margin-top: 70px;
-	}
-	.phrase {
-		text-align: center;
-	}
-	#arrow {
-		display: flex;
-		min-width: 100%;
-	}
-	.arrow {
-		padding-top: 30px;
-		font-size: 1.5em;
-	}	
-}
 a {
 	color:black;
 }
@@ -280,4 +229,55 @@ div button {
 }
 div button:hover {
 	opacity: 0.8;
+}
+@media screen and (min-width:1024px) {
+	body {
+		max-width: 1200px;
+	}
+	img {
+		max-width: 100%;
+		height: 700px;
+		display: block;
+		margin: auto;
+	}
+	#logo {
+		min-width: 30%;
+		height: auto;
+	}
+	footer {
+		padding-top: 20px;
+		padding-right: 10px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.block2 {
+		margin: auto;
+	}
+	h3 {
+		max-width: 7%;
+		display: block;
+		margin: auto;
+		padding-left: 510px;
+		padding-right: 580px;
+		text-align: center;;
+	}
+	footer h4 {
+		display: none;
+	}
+	h2 {
+		width: 25%;
+		margin: auto;
+		margin-top: 70px;
+	}
+	.phrase {
+		text-align: center;
+	}
+	#arrow {
+		display: flex;
+		min-width: 100%;
+	}
+	.arrow {
+		padding-top: 30px;
+		font-size: 1.5em;
+	}	
 }
