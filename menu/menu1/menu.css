@@ -144,7 +144,7 @@ section {
 		
 	 }
 	100% {
-	  transform: rotate(1);
+	  transform: scale(1);
 	}
 }
 @keyframes slide{

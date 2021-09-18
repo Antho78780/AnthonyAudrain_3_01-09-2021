@@ -47,13 +47,13 @@ a {
 }
 .localisation {
 	position: absolute;
-	top: 35px;
+	top: 37px;
 	left: 25%;
 }
 body {
 	font-family: "roboto";
-	width: 100%;
 	margin: auto;
+	min-width: 100px;
 }
 .restaurant img {
 	border-radius: 10px 10px 0px 0px;
